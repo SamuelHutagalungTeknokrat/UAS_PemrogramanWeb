@@ -68,14 +68,14 @@ h1, h2, h3, h4, h5, h6 {
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
-  padding: 0 15px;
+  padding: 0 10px;
   background: #920000;
   overflow-y: auto;
 }
 #header .profile img {
-  margin: 15px auto;
+  margin: 20px auto;
   display: block;
-  width: 120px;
+  width: 130px;
   border: 8px solid #2c2f3f;
 }
 #header .profile h1 {
@@ -91,6 +91,32 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   text-decoration: none;
 }
+#header .profile h4 {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  font-family: "Poppins", sans-serif;
+}
+#header .profile h4 a, #header .profile h4 a:hover {
+  color: #ffd900;
+  text-decoration: none;
+}
+#header .profile h5 {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  font-family: "Poppins", sans-serif;
+}
+#header .profile h5 a, #header .profile h5 a:hover {
+  color: #ffd900;
+  text-decoration: none;
+}
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
@@ -101,8 +127,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 35px;
+  height: 35px;
   transition: 0.3s;
 }
 #header .profile .social-links a:hover {
@@ -197,7 +223,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/Picsart-Background.jpg") top center;
+  background: url("../img/Background.jpeg") top center;
   background-size: cover;
 }
 #hero:before {
@@ -294,7 +320,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 25px;
-  color: #000000;
+  color: #920000;
 }
 .about .content ul {
   list-style: none;
@@ -404,7 +430,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #920000;
 }
 .resume .resume-item {
   padding: 0 0 20px 20px;
